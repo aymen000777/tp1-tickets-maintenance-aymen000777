@@ -1,4 +1,4 @@
-# TP 1 — Consultation des tickets
+# GitHub TP1 — Consultation des tickets
 
 Application de suivi des tickets de support réalisée avec Vue 3, Vite, Axios et JSON Server.
 
@@ -55,5 +55,8 @@ cinq captures demandées : réponse GET, liste, recherche, filtres combinés et 
 
 ## Identité et difficultés
 
-- Identité : à compléter par l’étudiant.
-- Difficultés rencontrées : à compléter par l’étudiant.
+- Identité : 13524506
+- Difficultés rencontrées : connecter l’application à l’API JSON Server et gérer les états
+  asynchrones (chargement et erreurs), puis combiner correctement la recherche par titre avec les
+  filtres de statut et de priorité. La configuration de l’URL de l’API via `VITE_API_URL` permet
+  également de tester l’application avec une autre adresse sans modifier le code.
